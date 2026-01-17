@@ -1,0 +1,3 @@
+Hello, this is sample text file.
+Reading this file using fs module sync method.
+Node.js is awesome!

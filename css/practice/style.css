@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.section {
+  border-bottom: 1px solid #ccc;
+}
+
+.title {
+  position: sticky;
+  top: 0;
+
+  background: #532f2f;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  z-index: 10;
+}
