@@ -7,7 +7,7 @@ function findMissingNumber(arr) {
   const actualSum = arr.reduce((acc, curr) => acc + curr, 0);
   return expectedSum - actualSum;
 }
-
+1
 console.log(findMissingNumber([1, 5, 4, 3]));
 ```
 

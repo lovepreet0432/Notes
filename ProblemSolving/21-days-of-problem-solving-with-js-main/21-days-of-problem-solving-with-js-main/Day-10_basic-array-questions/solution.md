@@ -92,3 +92,30 @@ function concatArray(arr1, arr2) {
 
 console.log(concatArray([1, 2, 3], [4, 5]));
 ```
+
+const arrr=[1,2,3,2,3,2,4,5,7];
+
+function duplicates(arr)
+{
+ let duplicateArr=[];
+
+ for(let i=0;i<arr.length;i++)
+ {
+  let isDuplicate=false;
+  for(let j=0;j<duplicateArr.length;j++)
+  {
+    if(arr[i]==arr[j])
+    {
+      isDuplicate=true;
+      break;
+    }
+  }
+  if(!isDuplicate)
+  {
+    duplicateArr.push(arr[i]);
+  }
+ }
+ console.log(duplicateArr);
+}
+
+duplicates(arrr);

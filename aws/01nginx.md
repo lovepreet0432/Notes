@@ -1,5 +1,15 @@
 1️⃣ What is Nginx (in simple terms)
 
+
+cloudfront
+invalidate
+policies
+create-cache-policy
+securing files with cloudfront signed url
+cloudfront pricing
+
+
+
 Nginx is a high-performance web server and reverse proxy.
 
 Think of it like a traffic manager sitting in front of your Node.js app.
